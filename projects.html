@@ -95,6 +95,32 @@
                         </div>
                     </article>
 
+                    <!-- Red Wine Quality Prediction Project -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h2 class="project-title">Red Wine Quality Prediction</h2>
+                            <p class="project-description">
+                                Built a machine learning model to predict red wine quality based on physicochemical
+                                attributes such as acidity, alcohol content, and sulphates. Implemented data
+                                preprocessing, exploratory analysis, and classification techniques to evaluate wine
+                                quality scores.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Machine Learning</span>
+                                <span class="tech-tag">Data Analysis</span>
+                                <span class="tech-tag">scikit-learn</span>
+                                <span class="tech-tag">Pandas</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/MissTaazeen/Detect-Wine_Quality.git" class="project-link"
+                                    target="_blank" rel="noopener noreferrer">
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
                     <!-- Project 3 -->
                     <article class="project-card">
                         <div class="project-content">
@@ -158,6 +184,18 @@
             </div>
         </div>
     </footer>
+    <!-- Spotlight Overlay -->
+    <div class="spotlight"></div>
+
+    <script>
+        const spotlight = document.querySelector('.spotlight');
+        document.addEventListener('mousemove', (e) => {
+            if (window.innerWidth > 768) {
+                spotlight.style.setProperty('--x', `${e.clientX}px`);
+                spotlight.style.setProperty('--y', `${e.clientY}px`);
+            }
+        });
+    </script>
 </body>
 
 </html>

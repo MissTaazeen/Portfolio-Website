@@ -95,6 +95,18 @@
             </div>
         </div>
     </footer>
+    <!-- Spotlight Overlay -->
+    <div class="spotlight"></div>
+
+    <script>
+        const spotlight = document.querySelector('.spotlight');
+        document.addEventListener('mousemove', (e) => {
+            if (window.innerWidth > 768) {
+                spotlight.style.setProperty('--x', `${e.clientX}px`);
+                spotlight.style.setProperty('--y', `${e.clientY}px`);
+            }
+        });
+    </script>
 </body>
 
 </html>

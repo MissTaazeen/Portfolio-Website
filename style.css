@@ -777,3 +777,23 @@ textarea.form-control {
         justify-content: center;
     }
 }
+
+/* Spotlight Focus Glow */
+.spotlight {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 5;
+    background: radial-gradient(800px circle at var(--x, 50%) var(--y, 50%), rgba(56, 189, 248, 0.06), transparent 50%);
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+@media (max-width: 768px) {
+    .spotlight {
+        display: none;
+    }
+}
