@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Taazeen Ansari</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Safety fix: background elements must not block clicks -->
+    <style>
+        .bg-shape {
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header / Navigation -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" style="text-decoration: none;">
+                <div class="logo">Taazeen Ansari</div>
+            </a>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html#about" class="nav-link">About</a>
+                <a href="skills.html" class="nav-link">Skills</a>
+                <a href="projects.html" class="nav-link active">Projects</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="section">
+            <div class="container">
+                <h1 class="section-title">Featured Projects</h1>
+
+                <div class="projects-grid">
+
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h2 class="project-title">Laptop Price Predictor</h2>
+                            <p class="project-description">
+                                Developed a machine learning regression model to predict laptop prices based on
+                                feature data. Implemented data preprocessing, feature handling, and model evaluation
+                                using Python and scikit-learn.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">scikit-learn</span>
+                                <span class="tech-tag">Machine Learning</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/yourusername/laptop-price-predictor" class="project-link"
+                                    target="_blank" rel="noopener noreferrer">
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h2 class="project-title">Autonomous Fire Extinguishing Drone</h2>
+                            <p class="project-description">
+                                Worked on the machine learning component of an autonomous fire extinguishing drone,
+                                focusing on fire detection and response logic using computer vision techniques.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">Machine Learning</span>
+                                <span class="tech-tag">Computer Vision</span>
+                                <span class="tech-tag">CNN</span>
+                                <span class="tech-tag">OpenCV</span>
+                                <span class="tech-tag">YOLO</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/yourusername/fire-drone-ml" class="project-link"
+                                    target="_blank" rel="noopener noreferrer">
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h2 class="project-title">
+                                Library Management System with Anti-Theft Protection
+                            </h2>
+                            <p class="project-description">
+                                Designed a smart library management system aimed at improving book tracking and
+                                reducing theft, focusing on automation and system reliability.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">Problem Solving</span>
+                                <span class="tech-tag">System Design</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/MissTaazeen/library-management-system-webpage.git"
+                                    class="project-link" target="_blank" rel="noopener noreferrer">
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 4 -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h2 class="project-title">Personal Tech Blog</h2>
+                            <p class="project-description">
+                                Created and maintained a technical blog covering programming languages, cybersecurity,
+                                machine learning basics, and emerging technologies with a focus on beginner-friendly
+                                explanations.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">Technical Writing</span>
+                                <span class="tech-tag">Content Creation</span>
+                                <span class="tech-tag">SEO</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://sophiablogs8.com" class="project-link" target="_blank"
+                                    rel="noopener noreferrer">
+                                    Visit Blog
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+            <!-- Decorative background shapes (non-interactive) -->
+            <div class="bg-shape shape-1" style="top: 15%; right: -15%;"></div>
+            <div class="bg-shape shape-2" style="bottom: 5%; left: -5%;"></div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left"></div>
+            <div class="footer-right">
+                <p style="color: var(--text-secondary);">&copy; Taazeen Ansari</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
